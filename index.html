@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website Design Tutorial</title>
+    <!-- animate cho Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header class="header">
+        <div class="header_top">
+            <ul class="header_top-list">
+                <span class="item_text">Theo dõi: </span>
+                <li class="header_top-item item_brand"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li class="header_top-item item_brand"> <a href=""><i class="fab fa-twitter"></i></a></li>
+                <li class="header_top-item item_brand"> <a href=""><i class="fab fa-instagram"></i></a></li>
+                <li class="header_top-item item_brand"> <a href=""><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+            <ul class="header_top-list right">
+                <li class="header_top-item item_text">
+                    <a href=""><i class="fas fa-sign-in-alt"></i>Đăng nhập</a>
+                </li>
+                <li class="header_top-item item_text">
+                    <a href=""><i class="fas fa-user"></i>Đăng kí</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header_mid">
+            <div class="logo ">
+                <img src="image/greenhouse_logo.png" alt="" height="100%" class="left">
+            </div>
+            <div class="wrap_boxsearch">
+                <div class="dropdown_list">
+                    <i class="fas fa-list-ul"></i>
+                </div>
+                <div class="box-search">
+                    <input class="_input" type="text" placeholder="Tìm kiếm...">
+                    <span class="search_icon"><i class="fas fa-search"></i></span>
+                </div>
+                <div class="hotline">
+                    <div class="_icon-hotline">
+                        <img src="image/hotline_image.png" alt="" height="100%">
+                    </div>
+                    <div class="_phone">
+                        <span class="item_text">Hotline: </span>
+                        <div class="_phone-number">0368 766 753</div>
+                    </div>
+                </div>
+
+                <div class="mini_bastket">
+
+                    <div class="_basket">
+                        <i class="fas fa-cart-arrow-down"></i>
+                    </div>
+
+                    <div class="quantity">12</div>
+                    <div class="wrapper_show">
+                        <div class="">
+                            <div class="show_mini_bastket">
+                                <div class="box">
+                                    <img src="image/cat-2.png" alt="">
+                                    <div class="content">
+                                        <h3>watermelonwatermelon</h3>
+                                        <span class="price">50000</span>
+                                        <span class="quantity_item">1</span>
+                                    </div>
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pay_cart">
+                            <div class="wrap_total">
+                                <div class="item_text">Total:</div>
+                                <div class="item_text"><span id="total">100000</span> VND</div>
+                            </div>
+                            <div class="wrap_pay">
+                                <button class="thanhtoan">Thanh Toán</button>
+                                <button class="giohang">Giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="tabs">
+            <div class="tab-item active">
+                <a href="#1" aria-current="page"><i class="tab-icon fas fa-home"></i>Trang Chủ</a>
+            </div>
+            <div class="tab-item">
+                <a href="https://www.facebook.com/" target="_blank"><i class="tab-icon fas fa-ad"></i>Giới Thiệu</a>
+            </div>
+            <div class="tab-item" id="sanpham">
+                <a href="#3"><i class="tab-icon fab fa-pagelines"></i>Sản Phẩm <i
+                        class="fas fa-chevron-circle-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Sản phẩm mới</a>
+                    <a href="#">Tiểu cảnh để bàn</a>
+                    <a href="#">Sản phẩm nổi bật</a>
+                </div>
+            </div>
+            <div class="tab-item">
+                <a href="#4"><i class="tab-icon fas fa-newspaper"></i>Tin tức</a>
+            </div>
+            <div class="tab-item">
+                <a href="#5"><i class="tab-icon fas fa-phone-square-alt"></i>Liên Hệ</a>
+            </div>
+            <div class="line"></div>
+        </nav>
+
+    </header>
+
+
+
+    <!--Main body  -->
+    <main>
+        <div class="slider">
+            <div class="magintop"></div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://lh4.googleusercontent.com/-AB-MlaWYSyU/XPXI_5L_zSI/AAAAAAAAIrs/EGqB6oSOjFQmezKPnRxI_yasd3fIHUomgCPcBGAYYCw/s1600/slider_1.jpg"
+                            alt="">
+                        <div class="text-content">
+                            <h2 class="text-heading">Tân Trang Nhà Cửa</h2>
+                            <div class="text-description">
+                                Ant Garden mang đến cho không gian của bạn những chậu cây mini sáng tạo, độc đáo.<br>
+                                Giúp mọi người hòa hợp với thiên nhiên hơn.
+                            </div>
+                            <button class="btn_chitiet">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://lh4.googleusercontent.com/-AB-MlaWYSyU/XPXI_5L_zSI/AAAAAAAAIrs/EGqB6oSOjFQmezKPnRxI_yasd3fIHUomgCPcBGAYYCw/s1600/slider_1.jpg"
+                            alt="">
+                        <div class="text-content">
+                            <h2 class="text-heading">Tân Trang Nhà Cửa</h2>
+                            <div class="text-description">
+                                Ant Garden mang đến cho không gian của bạn những chậu cây mini sáng tạo, độc đáo.<br>
+                                Giúp mọi người hòa hợp với thiên nhiên hơn.
+                            </div>
+                            <button class="btn_chitiet">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://lh4.googleusercontent.com/-AB-MlaWYSyU/XPXI_5L_zSI/AAAAAAAAIrs/EGqB6oSOjFQmezKPnRxI_yasd3fIHUomgCPcBGAYYCw/s1600/slider_1.jpg"
+                            alt="">
+                        <div class="text-content">
+                            <h2 class="text-heading">Tân Trang Nhà Cửa</h2>
+                            <div class="text-description">
+                                Ant Garden mang đến cho không gian của bạn những chậu cây mini sáng tạo, độc đáo.<br>
+                                Giúp mọi người hòa hợp với thiên nhiên hơn.
+                            </div>
+                            <button class="btn_chitiet">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">Slide 4</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="section-banner">
+            <div class="single-banner">
+                <img src="https://vnn-imgs-a1.vgcloud.vn/img2.infonet.vn/w800/Uploaded/2020/bnx_mjxuh/2019_01_24/hoadao.jpg" alt="">
+                <div class="hover_banner"></div>
+            </div>
+            <div class="single-banner">
+                <img src="https://lh4.googleusercontent.com/-WL23ccbSRFA/XPXEP-pHJ-I/AAAAAAAAIpw/FvSrVCL_7okmoe4A8-Nh8GRvMwH3b976gCLcBGAs/s1600/index_sec_about_image-2.png" alt="">
+            </div>
+            <div class="single-banner">
+                <img src="https://vnn-imgs-a1.vgcloud.vn/img2.infonet.vn/w800/Uploaded/2020/bnx_mjxuh/2019_01_24/hoadao.jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
